@@ -81,13 +81,16 @@ Step 1: Enable 2-Step Verification
 Go to your Google Account Security page.
 Under "Signing in to Google", select "2-Step Verification".
 Follow the prompts to complete the 2-Step Verification setup.
+
 Step 2: Generate an App Password
 Once 2-Step Verification is enabled, return to the Security page.
 Under "Signing in to Google", click on "App Passwords".
+
 Re-enter your password if prompted.
 In the "Select app" dropdown, choose Mail.
 In the "Select device" dropdown, select Other (Custom name), enter "Spring Boot" or any descriptive name, and click Generate.
 Copy the 16-character App Password displayed. Use this password in place of your regular Gmail password.
+
 Step 3: Update Application Properties
 In application.properties, update the email credentials:
 
